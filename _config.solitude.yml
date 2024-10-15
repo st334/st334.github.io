@@ -21,6 +21,7 @@ site:
   name:
     class: text # text / i_class / img
     custom: Solitude # Solitude / fas fa-ghost / /img/pwa/favicon.ico
+  # icon: /img/pwa/favicon.ico # Site icon / 网站图标
   icon: /img/pwa/favicon.ico # Site icon / 网站图标
 # --------------------------- end ---------------------------
 
@@ -157,8 +158,9 @@ aside:
     # social
     # 社交信息图标
     information:
-    #  Github: https://github.com/everfu || fab fa-github # Name: link || icon
+      Github: https://github.com/st334 || fab fa-github # Name: link || icon
     #  Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
+      Mail: mailto:i@763901.xyz || fa fa-envelope
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -177,14 +179,14 @@ aside:
   toc:
     post: true
     page: false
-    vague: true
+    vague: false
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
   # Tags
   # 标签
   tags:
-    enable: false
+    enable: true
     limit: 20 # Number of tags displayed
     # Highlighted tags
     highlight_list:
@@ -221,7 +223,7 @@ aside:
     runtimeenable: true
     # Format: yyyy-MM-dd hh-mm-ss
     # 格式: yyyy-MM-dd hh-mm-ss
-    runtime: "2023-04-20 00:00:00"
+    runtime: "2024-10-15 13:20:00"
   # --------------------------- end ---------------------------
 # --------------------------- end ---------------------------
 
@@ -285,23 +287,23 @@ post:
   meta:
     # Release date
     # 发布日期
-    date: false
+    date: true
     # Update date
     # 更新日期
-    updated: false
+    updated: true
     # Location
     # 位置
     locate: false
     # Number of words
     # 字数
-    wordcount: false
+    wordcount: true
     # uv
     readtime: false
     # pv
     pv: false
     # Comment count
     # 评论数
-    comment: false
+    comment: true
   # Reward
   # 打赏
   award:
@@ -356,7 +358,8 @@ post:
 # --------------------------- start ---------------------------
 # Custom Theme Color
 theme_color:
-  dark: "#ffc848" # dark
+  # dark: "#ffc848" # dark
+  dark:  "#8eaccd" # dark
   light: "#425AEF" # light
 # --------------------------- end ---------------------------
 
@@ -733,13 +736,13 @@ wordcount: false
 # Latex formula support
 # Latex 公式支持
 katex:
-  enable: false
+  enable: true
   # Whether to load on each page
   # 是否在每个页面加载
   per_page: false
   # Whether to enable copy formula
   # 是否启用复制公式
-  copytex: false
+  copytex: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -795,16 +798,16 @@ pwa:
 comment:
   # Which commenting system to use(e.g. waline or waline,twikoo)
   # 使用哪个评论系统（例如： waline or waline,twikoo）
-  use: # waline, twikoo, valine, artalk, giscus # Up to two comment systems can be turned on at the same time
+  use: giscus # waline, twikoo, valine, artalk, giscus # Up to two comment systems can be turned on at the same time
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
-  commentBarrage: false
+  commentBarrage: true
   # Lazy load
   # 懒加载评论区
-  lazyload: false
+  lazyload: true
   # Whether to display the comment count
   # 显示评论数
-  count: false
+  count: true
   # PV
   pv: false
   # Avatar
@@ -850,9 +853,9 @@ artalk:
   option: # options
 # Giscus: https://solitude.js.org/comment/giscus
 giscus:
-  repo: # GitHub repository name
-  repo_id: # GitHub repository ID
-  category_id: # GitHub repository category ID
+  repo: st334/st334.github.io # GitHub repository name
+  repo_id: R_kgDONAVs3g # GitHub repository ID
+  category_id: DIC_kwDONAVs3s4CjXYb # GitHub repository category ID
   theme:
     light: light
     dark: dark
@@ -862,7 +865,7 @@ giscus:
 # --------------------------- start ---------------------------
 # Search
 search:
-  enable: false
+  enable: true
   # type: 使用的搜索引擎 / search engine
   type: local # local / algolia
   tags:
