@@ -1,0 +1,68 @@
+banner_suffix: 
+links:
+   - class_name: 工具箱 # 分类名称
+     descr: # 分类简介
+     type: card  # 显示方式，有两种 card / item
+     suffix: 
+     link_list:
+        - name: it-tools # 友链名称
+          link: https://it-tools.tech/ # 友链地址
+          descr: 对于开发人员和 IT 工作人员来说非常有用的工具 # 友链简介
+          avatar: https://it-tools.tech/favicon-16x16.png # 显示头像
+          topimg: https://it-tools.tech/apple-touch-icon.png # 如果是card模式下，将显示
+          # tag: 工具箱
+          # color: vip
+        - name: VPS剩余价值计算器 # 友链名称
+          link: https://gwwc.github.io/mjj/ # 友链地址
+          avatar: https://www.nodeseek.com/avatar/19307.png # 显示头像
+          topimg: https://www.nodeseek.com/avatar/19307.png # 如果是card模式下，将显示
+        - name: 电费计算器 # 友链名称
+          link: https://dianfeijisuanqi.bmcx.com/ # 友链地址
+          avatar: https://f.bmcx.com/file/dianfeijisuanqi/i_c_o.png?v=16e145453ee68224_4578 # 显示头像
+          topimg: https://f.bmcx.com/file/dianfeijisuanqi/i_c_o.png?v=16e145453ee68224_4578 # 如果是card模式下，将显示
+        - name: 地址生成器 # 友链名称
+          link: https://www.meiguodizhi.com/ # 友链地址
+          avatar: https://static11.meiguodizhi.com/favicon.ico # 显示头像
+          topimg: https://static11.meiguodizhi.com/favicon.ico # 如果是card模式下，将显示
+        - name: 能不能好好说话 # 友链名称
+          link: https://lab.magiconch.com/nbnhhsh/ # 友链地址
+          descr: 查询拼音首字母缩写意思 # 友链简介
+          avatar: https://lab.magiconch.com/favicon.ico # 显示头像
+          topimg: https://lab.magiconch.com/favicon.ico # 如果是card模式下，将显示
+        - name: 台风路径 # 友链名称
+          link: https://typhoon.slt.zj.gov.cn/wap.htm # 友链地址
+          avatar: https://typhoon.slt.zj.gov.cn/favicon.ico # 显示头像
+          topimg: https://typhoon.slt.zj.gov.cn/favicon.ico # 如果是card模式下，将显示
+        - name: 深言达意 # 友链名称
+          link: https://www.shenyandayi.com/ # 友链地址
+          descr: 找词找句、反向词典 # 友链简介
+          avatar: https://www.shenyandayi.com/favicon.ico # 显示头像
+          topimg: https://www.shenyandayi.com/favicon.ico # 如果是card模式下，将显示
+        - name: AlternativeTo # 友链名称
+          link: https://alternativeto.net/ # 友链地址
+          descr: 查询软件替代品 # 友链简介
+          avatar: https://alternativeto.net/static/icons/a2/favicon-16x16.png # 显示头像
+          topimg: https://alternativeto.net/static/icons/a2/apple-touch-icon.png?v=1 # 如果是card模式下，将显示
+   - class_name: 影视 # 分类名称
+     descr: # 分类简介
+     type: card  # 显示方式，有两种 card / item
+     suffix: 
+     link_list:
+        - name: 在线之家 # 友链名称
+          link: https://www.zxzj.site/ # 友链地址
+          avatar: https://www.zxzj.pro/statics/img/favicon.ico # 显示头像
+          topimg: https://www.zxzj.pro/statics/img/favicon.ico # 如果是card模式下，将显示
+        - name: ACG.RIP # 友链名称
+          link: https://acg.rip/ # 友链地址
+          descr: 动漫磁力 # 友链简介
+          avatar: https://acg.rip/favicon.ico # 显示头像
+          topimg: https://acg.rip/favicon.ico # 如果是card模式下，将显示
+        - name: BT之家 # 友链名称
+          link: https://www.1lou.me/ # 友链地址
+          descr: 磁力 # 友链简介
+          avatar: https://www.1lou.me/view/img/favicon.ico # 显示头像
+          topimg: https://www.1lou.me/view/img/favicon.ico # 如果是card模式下，将显示
+        - name: AGE动漫 # 友链名称
+          link: https://www.agedm.org/ # 友链地址
+          avatar: https://www.agedm.org/favicon.ico # 显示头像
+          topimg: https://www.agedm.org/favicon.ico # 如果是card模式下，将显示

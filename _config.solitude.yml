@@ -47,7 +47,8 @@ nav:
     #   Moments: /moments/ || fas fa-wifi
     #   Links: /links/ || fas fa-user-group
     #   Treasure: javascript:travelling() || fas fa-gift
-    # Myself:
+    Myself:
+      在线工具: /tlink/ || fas fa-toolbox
     #   Equipment: /equipment/ || fas fa-laptop
     #   Toobox: /tlink/ || fas fa-toolbox
     #   Music: /music/ || fas fa-music
