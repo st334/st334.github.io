@@ -153,9 +153,9 @@ aside:
     # Style 2 is invalid, Triggered when sayhello is clicked.
     # Style 2 无效, 点击 sayhello 时触发
     sayhello2:
-      # - You'll make it.
-      # - You're gonna make it.
-      # - Good luck, stranger.
+      - You'll make it.
+      - You're gonna make it.
+      - Good luck, stranger.
     # social
     # 社交信息图标
     information:
@@ -325,7 +325,7 @@ post:
   # Share icon
   # 分享图标
   share:
-    enable: false
+    enable: true
     list:
       # - qq
       # - weibo
@@ -334,9 +334,9 @@ post:
       # - telegram
       # - whatsapp
       # - linkedin
-      # - link
+      - link
       # - qrcode
-  rss: # /atom.xml
+  rss: /atom.xml
   # Article reading progress
   # 文章封面取色
   covercolor:
@@ -584,8 +584,8 @@ footer:
   links:
     - name: Theme
       url: https://github.com/everfu/hexo-theme-solitude
-    # - name: RSS
-    #   url: /atom.xml
+    - name: RSS
+      url: /atom.xml
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
