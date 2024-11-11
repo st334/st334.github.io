@@ -6,6 +6,7 @@ updated: 2024-10-20 04:31:47
 tags:
   - linux
   - 配置文件
+cover: https://download.logo.wine/logo/Vim_(text_editor)/Vim_(text_editor)-Logo.wine.png
 ---
 
 ## 配置文件

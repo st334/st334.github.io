@@ -1,0 +1,1 @@
+升级：npm update hexo-theme-solitude

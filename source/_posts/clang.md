@@ -4,6 +4,7 @@ categories: 技术
 date: 2024-11-02 13:52:07
 tags:
   - win
+cover: https://i.ytimg.com/vi/T3Jxrr-oDn0/maxresdefault.jpg
 ---
 
 ## windows 安装使用
